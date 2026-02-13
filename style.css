@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+/* Header */
+header {
+    background: #0a66c2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Buttons */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #0a66c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buttons a:hover {
+    background: #004182;
+}
+
+/* Cards */
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #0a66c2;
+}
+
+/* Lists */
+ul {
+    list-style: square;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #0a66c2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004182;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0a66c2;
+    color: white;
+}
